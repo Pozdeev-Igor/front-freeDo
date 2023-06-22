@@ -1,0 +1,44 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880");
+:root {
+  --color-black: #222;
+  --color-blue: #585dfb;
+  --color-light-blue: #9bcaf5;
+  --color-yellow: #ffdd49;
+  --color-light: #f2f3f7;
+  --color-light-blue: #9bcaf5;
+  --color-white: #ffffff;
+  --color-black: #121212;
+  --color-black-72: rgba(0, 0, 0, 72%);
+  --color-light-white-72:  rgba(255, 255, 255, 72%);
+  --color-light-blue: #9bcaf5;
+  --color-light-white: rgba(255, 255, 255, 50%);
+
+  --fz: 16px;
+  --fz-sm: 12px;
+
+  --border-radius: 28px;
+  --p-y: 12px;
+  --padding-y: 12px;
+  --p-y-sm: 8px;
+  --p-x-sm: 8px;
+  --padding-x: 10px;
+  --p-x: 10px;
+  --p-x-bg: 30px;
+  --p-y-bg: 30px;
+
+  --m-x: 10px;
+  --m-y: 10px;
+  --m-x-bg: 15px;
+  --m-y-bg: 15px;
+  --m-y-sm: 8px;
+  --m-x-sm: 8px;
+
+  --shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  margin: 0px;
+
+  font-family: "Gilroy-Regular", sans-serif;
+  background-color: var(--color-light);
+}

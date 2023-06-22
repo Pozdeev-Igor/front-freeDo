@@ -1,0 +1,67 @@
+.card{
+  padding: var(--p-y) var(--p-x) ;
+  font-family: 'Gilroy-Regular', sans-serif;
+  color: var(--color-black);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  margin: var(--m-y-bg) 0;
+  padding: var(--p-y) var(--p-x);
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+
+}
+.info{
+  padding-right: 20px;
+}
+
+
+
+.profession{
+  font-family: 'Gilroy-Bold', sans-serif;
+  color: var(--color-blue);
+  font-size: var(--fz);
+  margin-bottom: 12px;
+}
+
+.type{
+  font-family: 'Gilroy-Light', sans-serif;
+ color: var(--color-black-72);
+  font-size: var(--fz-sm);
+  margin-bottom: 16px;
+
+}
+
+.personal{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+}
+
+.name{
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: var(--fz-sm);
+  color: var(--color-light-blue);
+  margin-right: var(--m-x);
+}
+
+.date{
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: var(--fz-sm);
+  color: var(--color-black-72);
+  margin-right: var(--m-x);
+}
+
+.views{
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: var(--fz-sm);
+  color: var(--color-black-72);
+  margin-right: 5px;
+}
+
+.image{
+  width: 180px;
+  height: auto;
+  border-radius: var(--border-radius);
+  justify-self: right;
+}
