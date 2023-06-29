@@ -1,0 +1,46 @@
+@import "#styles/index";
+
+.button{
+  background-color: $color-light-blue;
+  cursor: pointer;
+  padding: $p-10;
+  
+  @include text($text-large);
+  color: $color-white;
+  border-radius: $border-radius;
+  transition: all .2s ease-in-out;
+  margin: 0 5px;
+  border: none;
+
+  &:hover{
+    background-color: $color-blue;
+  }
+
+  &.yellow{
+    background-color: $color-yellow;
+    padding: $p-10 13.5px;
+  }
+  
+  &.small{
+    padding: 5.3px $p-10 ;
+  }
+}
+
+
+
+
+.buttonWork{
+  cursor: pointer;
+  padding: 8px $p-16 2px;
+  @include text($text-large);
+  color: $color-black-50;
+  background-color: $color-light-white;
+  border-radius: $border-radius $border-radius 0 0;
+  transition: all .2s ease-in-out;
+  border: none;
+}
+
+.active{
+  color: $color-black;
+  background-color: $color-white;
+}
