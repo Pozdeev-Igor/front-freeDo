@@ -1,0 +1,33 @@
+@import "#styles/index";
+
+
+.search{
+  background-color: $color-white;
+  margin-bottom: $m-24;
+  
+  box-shadow: $shadow;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.input{
+  padding: 11px $p-16;
+  min-width: 80%;
+  @include text-user($text-large-user);
+  border: 5px solid $color-light;
+  border-radius: 100px 0 0 100px;
+  
+  outline: none;
+}
+
+.select{
+  min-width: 20%;
+  cursor: pointer;
+  @include text-user($text-large);
+  color: $color-black-50;
+  border: 5px solid $color-light;
+  background-color: transparent;
+  border-radius: 0  100px 100px 0;
+  text-align: center;
+  padding: 11px $p-16;
+  outline: none;
+}

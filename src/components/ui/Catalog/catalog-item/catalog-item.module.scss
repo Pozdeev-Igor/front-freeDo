@@ -1,0 +1,63 @@
+
+@import "#styles/index";
+
+.card {
+  font-family: "Gilroy-Regular", sans-serif;
+  color: $color-black;
+  border-radius: 16px;
+  box-shadow: $shadow;
+ 
+margin: $m-16 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.info {
+  margin: 11px 60px 2px 13px;
+  padding-right: 20px;
+}
+
+.profession {
+  
+  @include header($header-h1);
+  margin-bottom: 4px;
+}
+
+.type {
+  @include text-ight($text-medium-light);
+  margin-bottom: 6px;
+}
+
+.personal {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 4.5px;
+}
+
+.name {
+  @include text($text-medium);
+  color: $color-light-blue;
+  margin-right: 12px;
+}
+
+.date {
+  @include text($text-medium);
+  margin-right: 12px;
+}
+
+.views {
+  @include text($text-medium);
+  margin-right: 5px;
+}
+
+.text {
+  white-space: pre-line;
+  @include text($text-normal);
+  color: $color-black-72;
+}
+.image {
+  width: auto;
+  height: 100%;
+  border-radius: $border-radius;
+  justify-self: right;
+}

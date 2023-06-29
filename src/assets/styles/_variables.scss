@@ -1,0 +1,75 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880");
+
+$font-stack: Helvetica, sans-serif;
+
+// ЦВЕТА
+$primary-color: #333;
+$color-black: #222;
+$color-blue: #585dfb;
+$color-light-blue: #9bcaf5;
+$color-yellow: #ffdd49;
+$color-light: #f2f3f7;
+$color-light-blue: #9bcaf5;
+$color-white: #ffffff;
+$color-black: #121212;
+$color-black-72: rgba(0, 0, 0, 72%);
+$color-light-white-72: rgba(255, 255, 255, 72%);
+$color-black-50: rgba(0, 0, 0, 50%);
+$color-light-blue: #9bcaf5;
+$color-light-white: rgba(255, 255, 255, 50%);
+
+
+//FONT-SIZE
+
+$header-h0: 24px;
+$header-h1: 20px;
+$header-h2: 16px;
+
+
+$text-large: 16px;
+$text-normal: 14px;
+$text-medium: 12px;
+$text-small: 11px;
+
+
+$text-large-user: 16px;
+$text-normal-user: 14px;
+$text-medium-user: 12px;
+
+$text-large-light: 16px;
+$text-normal-lightr: 14px;
+$text-medium-light: 12px;
+
+
+
+// BORDER
+$border-radius: 28px;
+
+// PADDING
+$p-2: 2px;
+$p-8: 8px;
+$p-10: 10px;
+$p-16: 16px;
+$p-24: 24px;
+$p-30: 30px;
+$p-48: 48px;
+$p-56: 56px;
+$p-72: 72px;
+
+// MARGIN
+
+
+
+$m-2: 2px;
+$m-8: 8px;
+$m-10: 10px;
+$m-16: 16px;
+$m-24: 24px;
+$m-30: 30px;
+$m-48: 48px;
+$m-56: 56px;
+$m-72: 72px;
+
+
+// SHADOW
+$shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.2);
