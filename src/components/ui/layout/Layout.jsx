@@ -1,13 +1,13 @@
 import React from 'react'
-import style from './layout.module.css'
+import style from './layout.module.scss'
 import Header from './header/Header'
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className={style.container}>
 			<Header />
 			
-				<main className={style.container}>{children}</main>
+				<main >{children}</main>
 			
 		</div>
   )
