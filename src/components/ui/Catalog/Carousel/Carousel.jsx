@@ -1,25 +1,26 @@
-import Flickity from 'react-flickity-component'
 
-const flickityOptions = {
-    initialIndex: 2
-}
+import { Carousel } from "react-responsive-carousel";
 
-const Carousel = ({image}) => {
+
+const Carousels = ({image}) => {
+ 
   return (
-    <Flickity
-      className={'carousel'} // default ''
-      elementType={'div'} // default 'div'
-      options={flickityOptions} // takes flickity options {}
-      disableImagesLoaded={false} // default false
-      reloadOnUpdate // default false
-      static // default false
+    <Carousel autoPlay
+    infiniteLoop='true'
+    showThumbs={false} showStatus={false}
     >
-      <img src={image}/>
-      <img src={image}/>
-      <img src={image}/>
-    </Flickity>
-  )
+    <div>
+      <img alt="" src={image} />
+    </div>
+    <div>
+      <img alt="" src={image} />
+    </div>
+    <div>
+      <img alt="" src={image} />
+    </div>
+    </Carousel>
+  );
 }
 
 
-export default Carousel;
+export default Carousels;

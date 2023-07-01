@@ -3,7 +3,9 @@ import Button from "#ui/Buttons/Button";
 import styles from './catalog-item.module.scss'
 import { AiFillEye } from 'react-icons/ai';
 import LinkImage from "#assets/images/icon_link.svg";
-import Carousel from "../Carousel/Carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Icon } from "#utils/Icon";
+import Carousels from "../Carousel/Carousel";
 
 
 const CatalogItem = ({profession, type, name, date, views, image, text}) => {
@@ -18,12 +20,12 @@ const CatalogItem = ({profession, type, name, date, views, image, text}) => {
           <div className={styles.views}>{views}</div>
           
           <AiFillEye />
-          <Button size='sm'><img src={LinkImage} alt="Ссылка"/></Button>
+          <Button size='sm'><Icon/></Button>
         </div>
         <div className={styles.text}>{text}</div>
       </div>
     
-    <Carousel image={image}/>
+    <Carousels image={image}/>
       {/* <img className={styles.image} src={image} alt="" /> */}
     </div>
   );

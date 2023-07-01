@@ -2,6 +2,7 @@
 
 .button{
   background-color: $color-light-blue;
+  vertical-align: center;
   cursor: pointer;
   padding: $p-10;
   
@@ -13,21 +14,42 @@
   border: none;
 
   &:hover{
-    background-color: $color-blue;
+    
+    box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.15)  inset;
+    opacity: 0.9;
   }
 
   &.yellow{
     background-color: $color-yellow;
     padding: $p-10 13.5px;
   }
+
+  &.blue{
+    background-color: $color-blue;
+  }
   
   &.small{
     padding: 5.3px $p-10 ;
+
+    &:hover{
+    
+      
+      background-color: $color-black-72;
+
+       path {
+        stroke: $color-white;
+      }
+      
+    }
+
+    
   }
 }
 
 
-
+.button:hover #link {
+  stroke: $color-white;
+}
 
 .buttonWork{
   cursor: pointer;

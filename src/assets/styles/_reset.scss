@@ -38,6 +38,9 @@ textarea,
 select {
   font: inherit;
 }
+li{
+  list-style: none;
+}
 
 @media (prefers-reduced-motion: reduce) {
   *,
