@@ -6,11 +6,13 @@ import LinkImage from "#assets/images/icon_link.svg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Icon } from "#utils/Icon";
 import Carousels from "../Carousel/Carousel";
+import { Link } from "react-router-dom";
 
 
-const CatalogItem = ({profession, type, name, date, views, image, text}) => {
+const CatalogItem = ({id, profession, type, name, date, views, image, text}) => {
   return (
-    <div className={styles.card}>
+    <Link to ={`/ad/${id}`}>
+      <div className={styles.card}>
       <div className={styles.info}>
         <div className={styles.profession}>{profession}</div>
         <div className={styles.type}>{type}</div>
@@ -28,7 +30,7 @@ const CatalogItem = ({profession, type, name, date, views, image, text}) => {
     <Carousels image={image}/>
       {/* <img className={styles.image} src={image} alt="" /> */}
     </div>
+    </Link>
   );
 };
-
 export default CatalogItem;

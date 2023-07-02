@@ -1,0 +1,53 @@
+@import "#styles/index";
+
+.photo {
+  margin-bottom: $m-16;
+}
+
+.photo img {
+  border-radius: $border-radius;
+  box-shadow: $shadow;
+}
+
+.name {
+  @include header($header-h0);
+}
+
+.contacts {
+  margin: $m-16 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.contact {
+  display: flex;
+  padding: 0px 71px 10px 0px;
+  align-items: flex-start;
+  gap: 20px;
+
+  @include text($text-large);
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.text {
+  @include text($text-large);
+}
+
+.methods {
+  display: flex;
+  width: 260px;
+  height: 73px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+}
