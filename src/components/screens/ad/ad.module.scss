@@ -1,0 +1,42 @@
+@import "#styles/index";
+
+.container{
+  display: flex;
+  padding-right: $p-24;
+}
+
+.ad{
+  width: 75%;
+  padding-bottom: 104px;
+  padding-right: 16px;
+  position: relative;
+  margin-right: 28px;
+  &::after{
+    content: '';
+    width: 12px;
+  height: 100%;
+  background-color: $color-light;
+  border-radius: $border-radius;
+  left: 100%;
+  top: 0;
+  /* включаем абсолютное позиционирование относительно блока с relative */
+  position: absolute;
+  
+  }
+}
+
+.profession{
+  @include header($header-h0);
+  margin-top: $m-10;
+ 
+}
+
+.type{
+  @include text-light($text-large-light);
+  margin-bottom: $m-10;
+}
+
+.text{
+  @include text-user($text-large-user);
+}
+

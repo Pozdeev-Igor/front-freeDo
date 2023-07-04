@@ -1,0 +1,26 @@
+@import "#styles/index";
+
+.notFound{
+  align-self: center;
+}
+
+.main{
+  margin-top: 237px ;
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.container{
+  align-self: center;
+  margin: 0 auto;
+  padding: 56px;
+  margin: 200px 400px;
+
+  img{
+    display: flex;
+    margin: 0 auto;
+  }
+}

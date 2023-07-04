@@ -1,0 +1,30 @@
+@import "#styles/index";
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 2px;
+
+  border-radius: $border-radius;
+  border: 1px solid $color-blue;
+  background: $color-white;
+}
+
+
+.price{
+  @include text($text-large);
+  display: flex;
+padding: 8px 2px 8px 8px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+.text{
+  @include text($text-large);
+  color: $color-white;
+  border-radius: $border-radius;
+  padding: $p-8;
+  background-color: $color-blue;
+}

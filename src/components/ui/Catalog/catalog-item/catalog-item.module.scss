@@ -23,7 +23,7 @@ margin: $m-16 0;
 }
 
 .type {
-  @include text-ight($text-medium-light);
+  @include text-light($text-medium-light);
   margin-bottom: 6px;
 }
 
@@ -53,8 +53,8 @@ margin: $m-16 0;
 .text {
   white-space: pre-line;
   @include text($text-normal);
-  color: $color-black-72;
 }
+
 .image {
   width: auto;
   height: 100%;

@@ -6,8 +6,17 @@
 
 
 body {
+  
   margin: 0px;
 
   font-family: "Gilroy-Regular", sans-serif;
   background-color: $color-light;
 }
+
+.container{
+  box-shadow: $shadow;
+  background-color: $color-white;
+  border-radius: $border-radius ;
+  padding: $p-24 124px $p-24  $p-24;
+}
+

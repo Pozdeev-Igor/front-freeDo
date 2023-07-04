@@ -1,0 +1,25 @@
+@import "#styles/index";
+
+
+.payment{
+  display: flex;
+  max-width: 540px;
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+margin-bottom: $m-10;
+border-radius: $border-radius;
+border: 1px solid $color-blue;
+}
+
+.title{
+  @include header($header-h2);
+  color: $color-black-72;
+}
+
+.service{
+  display: flex;
+align-items: flex-start;
+gap: 16px;
+}

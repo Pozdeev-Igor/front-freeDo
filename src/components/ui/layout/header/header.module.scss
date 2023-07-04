@@ -29,3 +29,87 @@
   width: 329px;
   height: 64px;
 }
+.points{
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+
+}
+
+.links{
+  z-index: 1000;
+  display: flex;
+  gap: 3.5rem;
+  align-items: center;
+  position: absolute;
+  top: 90%;
+  right: 0;
+  flex-direction: column;
+  gap: 0;
+  perspective: 400px;
+}
+
+.links li {
+  height: 4rem;
+  width: 100%;
+  box-shadow: -2rem 2rem 5rem rgba(0,0,0,0.4);
+  animation: navAnimation 600ms ease forwards;
+  transform: rotateX(90deg);
+  opacity: 0;
+  transform-origin: top;
+  background-color: $color-blue;
+  align-items: center;
+  padding: 1rem;
+  color: $color-white;
+  border-radius: $border-radius;
+}
+
+.links li:hover{
+  color: $color-yellow;
+}
+
+
+.links li:nth-child(2){
+  animation-delay: 200ms;
+}
+
+.links li:nth-child(3){
+  animation-delay: 400ms;
+}
+
+.links li:nth-child(4){
+  animation-delay: 600ms;
+}
+
+.links li:nth-child(5){
+  animation-delay: 800ms;
+}
+
+.links li:nth-child(6){
+  animation-delay: 1000ms;
+}
+
+
+
+@keyframes navAnimation {
+  to{
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+.show {
+  display: flex;
+}
+
+.hide{
+  display: none;
+}
+
+

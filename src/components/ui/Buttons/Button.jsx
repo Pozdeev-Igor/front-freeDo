@@ -6,12 +6,13 @@ import styles from './button.module.scss'
 
 const Button  = ({
 	children,
-  variant = 'blue',
+  variant = 'light-blue',
 	size='md',
+	onClick,
 	...rest
 }) => {
 	return (
-		<button {...rest} className={`${styles.button} ${variant === 'yellow' ? styles.yellow : styles.blue } ${size === 'sm' ? "" : styles.small }`}>
+		<button {...rest} onClick = {onClick} className={`${styles.button} ${variant === 'yellow' ? styles.yellow : variant === 'blue' ?  styles.blue : "" } ${size === 'sm' ?  styles.small : ""  }`}>
 			{children}
 		</button>
 	)

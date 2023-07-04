@@ -14,18 +14,18 @@
  @mixin text($font-size) {
   font-size: $font-size;
   font-family: 'Gilroy-Medium', sans-serif;
-  color: $color-black;
+  color: $color-black-72;
  }
 
  @mixin text-user($font-size) {
   font-size: $font-size;
   font-family: 'Gilroy-Regular', sans-serif;
-  color: $color-black;
+  color: $color-black-72;
  }
 
 
- @mixin text-ight($font-size) {
+ @mixin text-light($font-size) {
   font-size: $font-size;
-  font-family: 'ilroy-Light', sans-serif;
+  font-family: 'Gilroy-Light', sans-serif;
   color: $color-black-72;
  }
